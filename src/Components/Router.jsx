@@ -16,7 +16,7 @@ export const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <All />, // ✅ ONLY THIS (no duplicate)
+        element: <All />,
       },
       {
         path: "platforms",
@@ -40,10 +40,12 @@ export const router = createBrowserRouter([
       },
       {
         path: "game/:id",
-        element: <Gamedetails />, // ✅ FIXED PATH
+        element: <Gamedetails />,
       },
     ],
   },
-]);
+], {
+  basename: "/online-game-stores.com" 
+});
 
 export default router;
