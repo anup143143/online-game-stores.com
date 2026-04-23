@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 import { RouterProvider } from "react-router-dom";
 import { CartProvider } from "./Componets/CartContext";
 import { Router } from "./Componets/Router";
@@ -11,8 +11,7 @@ function App() {
   );
 }
 
-export default App;
-=======
+
 import { useState } from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../Components/Header';
@@ -78,4 +77,3 @@ const Layout = () => {
 };
 
 export default Layout;
->>>>>>> c07be7c (initial commit)
